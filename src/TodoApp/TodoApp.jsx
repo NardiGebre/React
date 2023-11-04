@@ -27,11 +27,9 @@ function TodoApp()
                     <button onClick= {()=>onDelete(task)}>Delete</button>
                     </>)
                 })}
-              
         </ul>
         </div>           
-        </>
-    );
+        </>    );
     function onClick () 
 {
     setTasks([...tasks,inputValue]);
