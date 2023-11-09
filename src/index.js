@@ -4,12 +4,14 @@ import './index.css';
 import HelloWorld from './HelloWorld.js';
 import TodoApp from './TodoApp/TodoApp';
 import CounterApp from './CounterApp/CounterApp';
+import UserProfileCard from './UserProfileCardApp/UserProfileCardApp';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <HelloWorld/>
     <TodoApp/>
     <CounterApp/>
+    <UserProfileCard name ="Akxum" age = "3000" email = "akxum@gmail.com"/>
      </React.StrictMode>
   );
 
