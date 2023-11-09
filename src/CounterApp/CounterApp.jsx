@@ -44,6 +44,7 @@ function CounterApp ()
         <>
         <input type = "text" value={counter} name="counter"/> 
         {/* // onChange={(e)=>setCurrentValueFromInput(e)} // */}
+        <br/>
         <button type = "button" onClick={increment}> increment</button>
         <br/>
         <button type = "button" onClick={decrement}> decrement</button>
