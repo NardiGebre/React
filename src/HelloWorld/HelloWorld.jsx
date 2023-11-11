@@ -1,12 +1,13 @@
-// HelloWorld.js
+// HelloWorld.jsx
 import React from "react";
 
 // Define a functional component named HelloWorld
 function HelloWorld()
 {
     return 
-  (
-        <div> <img src={logo.svg} className="logo.svg" alt="logo" />C:\Users\nardo\my-app\src\logo.svg
+    (           
+        <div>
+            <img src= "img/logo.svg"alt="reactlogo"/>            
             <h1>HelloWorld!</h1>
              </div>
     );
