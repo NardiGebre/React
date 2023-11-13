@@ -1,0 +1,3 @@
+[submodule "src/src/EventHandlingApp"]
+	path = src/src/EventHandlingApp
+	url = https://github.com/NardiGebre/React.git
